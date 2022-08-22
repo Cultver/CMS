@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cms.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeacherSelectAdapter"></activity>
+        <activity android:name=".TeacherCourseAdapter" />
+        <activity android:name=".TeacherSelectActivity" />
+        <activity android:name=".TeacherEditCourseActivity" />
+        <activity android:name=".TeacherCreateCourseActivity" />
+        <activity android:name=".StudentSchedulesAdapter" />
+        <activity android:name=".QueryUserDetailActivity" />
+        <activity android:name=".QueryUserAdapter" />
+        <activity android:name=".QueryUserActivity" />
+        <activity android:name=".UserCreateListActivity" />
+        <activity android:name=".TeacherDetailActivity" />
+        <activity android:name=".StudentQueryCourses" />
+        <activity android:name=".TeacherScheduleActivity" />
+        <activity android:name=".TeacherCourseActivity" />
+        <activity android:name=".StudentSelectCoursesActivity" />
+        <activity android:name=".StudentSchedulesActivity" />
+        <activity android:name=".net.StudentSchedulesActivity" />
+        <activity android:name=".CourseDetailActivity" />
+        <activity android:name=".StudentCourseActivity" />
+        <activity android:name=".UserApprovalDetailActivity" />
+        <activity android:name=".UserApprovalListActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".SelectClassActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
